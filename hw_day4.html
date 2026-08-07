@@ -122,13 +122,57 @@
         </div>
       </div>
       <!-- row complete -->
-       <!-- FAQ and Accordion -->
-       <div id="accordion">
+      <!-- FAQ and Accordion -->
+      <div id="accordion">
+        <h2 style="margin-top: 10px">Frequently asked Qns</h2>
+        <!-- 1st qn -->
         <div class="card">
-          
-          
+          <div class="card-header">
+            <a class="card-link" href="#collapseOne" data-toggle="collapse"
+              >Which board is best for a headless Linux environment?</a
+            >
+          </div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+              The Raspberry Pi 5 is the recommended choice for running full
+              Linux distributions (like Ubuntu, Kali, or DietPi) in a headless
+              configuration, offering the necessary RAM and processing
+              architecture.
+            </div>
+          </div>
         </div>
-       </div>
+        <!-- 2nd qn -->
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" href="#collapseTwo" data-toggle="collapse"
+              >Can I easily connect standard sensors to the ESP32?</a
+            >
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Yes. The ESP32 features multiple GPIO pins that easily interface
+              with temperature, motion, and proximity sensors, making it an
+              excellent choice for lightweight robotics projects.
+            </div>
+          </div>
+        </div>
+        <!-- 3rd Qn -->
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" href="#collapseThree" data-toggle="collapse"
+              >What are the power requirements for these boards?</a
+            >
+          </div>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Microcontrollers like the ESP32 and Arduino are highly
+              power-efficient and can run off simple battery packs or USB. The
+              Raspberry Pi requires a dedicated 5V/5A power supply for optimal,
+              continuous high-load operations.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
